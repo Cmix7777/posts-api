@@ -2,15 +2,29 @@
   "posts": [
     {
       "id": 1,
-      "title": "First Post",
-      "body": "This is my first post",
-      "comments": [
-        {
-          "id": 1,
-          "postId": 1,
-          "text": "Great post!"
-        }
-      ]
+      "title": "Первый пост",
+      "body": "Содержание первого поста",
+      "createdAt": "2023-05-01"
+    },
+    {
+      "id": 2,
+      "title": "Второй пост",
+      "body": "Содержание второго поста",
+      "createdAt": "2023-05-02"
+    },
+    {
+      "id": 3,
+      "title": "Третий пост",
+      "body": "Содержание 3 поста",
+      "createdAt": "2023-05-03"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "text": "Первый комментарий",
+      "author": "Пользователь"
     }
   ]
 }
