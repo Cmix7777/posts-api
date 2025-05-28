@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "First Post",
+      "body": "This is my first post",
+      "comments": [
+        {
+          "id": 1,
+          "postId": 1,
+          "text": "Great post!"
+        }
+      ]
+    }
+  ]
+}
